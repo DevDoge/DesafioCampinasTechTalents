@@ -25,7 +25,7 @@ Depois de adicionar o MySQL acima e contruir o banco de dados, já pode adiciona
 
 Abaixo está o código para abrir a conexão (já incluso na classe Conexao.java), por isso é importante o banco de dados e a tabela serem criados exatamente como nas instruções:
 
-            try{
+        try {
             String URL = "jdbc:mysql://localhost:3306/db_desafio";
             String USER = "root";
             String PASSWORD = "BitServer12@";
