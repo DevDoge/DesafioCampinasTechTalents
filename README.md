@@ -2,7 +2,7 @@
 This is a course conclusion work for Campinas Tech Talents. Here it contains a system for presenting CRUD and JUnit 5 presentation, demonstrating the knowledge learned throughout the learning path.
 
 
-Instruções para a criação do servidor e banco de dados:
+**Instruções para a criação do servidor e banco de dados:**
 
 Primeiro crie um servidor padrão, contendo o como porta host "3306" e o hostname como "localhost".
 O nome de usuário deve ser "root" e a senha deve ser "BitServer12@" (sempre respeitando letras maiúsculas e minúsculas, tudo sem as aspas).
