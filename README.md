@@ -11,6 +11,7 @@ O nome de usuário deve ser "root" e a senha deve ser "BitServer12@" (sempre res
 Em seguida adicione o script .sql da pasta "MySQL", ou copie o conteúdo a baixo para o Query tab, executando para criar o banco de dados e a tabela:
 
 /****novo banco de nados e nova tabela****/
+
 CREATE DATABASE db_desafio;
 USE db_desafio;
 CREATE TABLE tabela_desafio(
