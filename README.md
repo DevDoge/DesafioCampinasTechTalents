@@ -10,18 +10,17 @@ O nome de usuário deve ser "root" e a senha deve ser "BitServer12@" (sempre res
 
 Em seguida adicione o script .sql da pasta "MySQL", ou copie o conteúdo a baixo para o Query tab, executando para criar o banco de dados e a tabela:
 
-/****novo banco de nados e nova tabela****/
-
-CREATE DATABASE db_desafio;
-USE db_desafio;
-CREATE TABLE tabela_desafio(
-id INT AUTO_INCREMENT,
-nome VARCHAR(70) NOT NULL,
-e_mail VARCHAR(70) NOT NULL,
-senha VARCHAR(70) NOT NULL,
-data_cadastro DATE,
-PRIMARY KEY (id)
-);
+        /****novo banco de nados e nova tabela****/
+        CREATE DATABASE db_desafio;
+        USE db_desafio;
+        CREATE TABLE tabela_desafio(
+        id INT AUTO_INCREMENT,
+        nome VARCHAR(70) NOT NULL,
+        e_mail VARCHAR(70) NOT NULL,
+        senha VARCHAR(70) NOT NULL,
+        data_cadastro DATE,
+        PRIMARY KEY (id)
+        );
 
 Depois de adicionar o MySQL acima e contruir o banco de dados, já pode adicionar o projeto em sua máquina e executar o programa da classe principal "Cadastro.java".
 
